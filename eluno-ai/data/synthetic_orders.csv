@@ -1,0 +1,1001 @@
+order_id,lens_type,store_id,inventory_available,current_status,days_elapsed,previous_qc_failures,sla_days,breached
+1,Bifocal,2,1,Delivered,2,2,2,1
+2,Bifocal,1,1,Out for Delivery,1,2,2,1
+3,Progressive,4,1,Delivered,9,1,2,1
+4,Progressive,3,1,Ready for Dispatch,9,2,2,0
+5,Bifocal,3,1,Out for Delivery,6,0,2,1
+6,Single Vision,2,0,Ready for Dispatch,7,0,5,1
+7,Progressive,3,1,Order Placed,6,3,2,1
+8,Progressive,3,0,Ready for Dispatch,10,1,5,1
+9,Bifocal,2,0,Delivered,7,2,5,1
+10,Progressive,4,0,Delivered,6,0,5,0
+11,Progressive,1,0,Out for Delivery,9,3,5,0
+12,Single Vision,2,0,Ready for Dispatch,8,0,5,1
+13,Single Vision,3,0,Order Placed,10,3,5,1
+14,Progressive,2,1,Delivered,3,3,2,1
+15,Bifocal,1,0,Order Placed,3,3,5,1
+16,Progressive,4,1,Order Placed,7,3,2,1
+17,Bifocal,3,1,Order Placed,8,0,2,1
+18,Single Vision,3,1,Order Placed,4,0,2,0
+19,Single Vision,2,1,Out for Delivery,1,1,2,0
+20,Single Vision,2,1,In Production,2,3,2,1
+21,Single Vision,1,1,Ready for Dispatch,1,1,2,1
+22,Bifocal,3,1,Order Placed,6,0,2,0
+23,Progressive,4,1,In Production,1,2,2,1
+24,Progressive,4,0,Ready for Dispatch,6,3,5,0
+25,Single Vision,3,0,Out for Delivery,7,1,5,1
+26,Single Vision,4,0,Order Placed,5,0,5,0
+27,Single Vision,3,1,In Production,10,3,2,1
+28,Progressive,1,1,Order Placed,6,2,2,1
+29,Bifocal,1,1,Out for Delivery,4,0,2,1
+30,Bifocal,3,0,Ready for Dispatch,10,3,5,1
+31,Single Vision,1,1,Delivered,6,3,2,1
+32,Bifocal,2,1,Order Placed,5,2,2,0
+33,Bifocal,4,1,In Production,9,3,2,1
+34,Bifocal,3,0,Order Placed,2,0,5,1
+35,Bifocal,2,0,In Production,10,1,5,1
+36,Progressive,1,0,Out for Delivery,7,3,5,1
+37,Bifocal,1,0,Delivered,4,3,5,1
+38,Single Vision,4,0,Order Placed,4,2,5,1
+39,Single Vision,3,0,Order Placed,9,2,5,1
+40,Single Vision,2,1,In Production,5,0,2,0
+41,Progressive,2,0,Delivered,8,2,5,0
+42,Progressive,4,1,Delivered,4,0,2,1
+43,Single Vision,4,1,Ready for Dispatch,10,2,2,0
+44,Bifocal,4,0,Delivered,7,3,5,0
+45,Progressive,3,0,Out for Delivery,8,0,5,1
+46,Single Vision,2,0,Delivered,3,0,5,0
+47,Progressive,4,1,Order Placed,8,1,2,1
+48,Bifocal,4,0,Out for Delivery,7,1,5,1
+49,Bifocal,3,0,Order Placed,8,1,5,1
+50,Single Vision,2,1,Order Placed,8,0,2,1
+51,Single Vision,1,1,Delivered,6,0,2,1
+52,Progressive,1,1,Ready for Dispatch,3,1,2,1
+53,Progressive,3,1,Order Placed,3,1,2,1
+54,Bifocal,2,0,Out for Delivery,7,2,5,1
+55,Bifocal,2,1,Order Placed,9,2,2,1
+56,Progressive,1,1,In Production,9,3,2,1
+57,Progressive,4,1,Order Placed,2,3,2,1
+58,Progressive,4,0,In Production,9,3,5,1
+59,Progressive,3,0,Ready for Dispatch,7,1,5,1
+60,Bifocal,2,0,Out for Delivery,5,3,5,1
+61,Single Vision,3,1,In Production,3,2,2,1
+62,Progressive,4,0,Ready for Dispatch,2,0,5,0
+63,Progressive,4,1,Order Placed,7,3,2,1
+64,Single Vision,2,0,Delivered,10,1,5,1
+65,Bifocal,2,1,Delivered,3,2,2,1
+66,Bifocal,4,0,Out for Delivery,5,2,5,1
+67,Bifocal,3,0,Out for Delivery,7,1,5,1
+68,Bifocal,2,1,In Production,5,1,2,1
+69,Progressive,2,1,Order Placed,1,1,2,0
+70,Single Vision,4,0,Ready for Dispatch,6,2,5,1
+71,Progressive,1,0,Order Placed,8,1,5,1
+72,Progressive,1,1,In Production,9,2,2,0
+73,Progressive,3,1,Order Placed,8,1,2,1
+74,Bifocal,3,0,Ready for Dispatch,2,2,5,1
+75,Bifocal,4,1,Ready for Dispatch,2,0,2,0
+76,Progressive,4,0,In Production,9,2,5,1
+77,Single Vision,2,0,Order Placed,5,2,5,1
+78,Single Vision,2,0,Delivered,9,3,5,1
+79,Single Vision,4,0,Out for Delivery,7,3,5,1
+80,Progressive,3,1,Out for Delivery,10,2,2,1
+81,Single Vision,3,1,Order Placed,6,2,2,1
+82,Single Vision,4,0,In Production,6,1,5,1
+83,Progressive,3,1,In Production,3,1,2,1
+84,Bifocal,1,1,In Production,7,0,2,1
+85,Progressive,2,0,In Production,4,0,5,0
+86,Progressive,2,0,Delivered,7,2,5,1
+87,Single Vision,3,1,In Production,6,3,2,0
+88,Progressive,4,1,Order Placed,1,0,2,0
+89,Progressive,4,1,Delivered,1,2,2,1
+90,Progressive,4,1,Out for Delivery,8,0,2,1
+91,Single Vision,1,0,Ready for Dispatch,3,2,5,1
+92,Progressive,4,1,Order Placed,7,1,2,1
+93,Progressive,4,1,Out for Delivery,4,2,2,1
+94,Bifocal,1,0,In Production,7,3,5,0
+95,Progressive,3,1,Delivered,2,3,2,1
+96,Bifocal,1,1,Order Placed,5,3,2,1
+97,Single Vision,4,0,Ready for Dispatch,10,1,5,1
+98,Single Vision,2,0,Out for Delivery,10,1,5,1
+99,Bifocal,2,0,Ready for Dispatch,4,3,5,1
+100,Single Vision,2,1,Order Placed,2,2,2,1
+101,Progressive,2,1,Ready for Dispatch,6,3,2,1
+102,Single Vision,2,0,Delivered,6,0,5,0
+103,Single Vision,4,1,In Production,3,1,2,1
+104,Bifocal,4,0,Ready for Dispatch,7,1,5,0
+105,Bifocal,3,0,Order Placed,9,0,5,1
+106,Bifocal,1,0,Out for Delivery,9,0,5,0
+107,Bifocal,4,0,Ready for Dispatch,4,0,5,0
+108,Single Vision,3,0,Out for Delivery,1,0,5,1
+109,Single Vision,1,0,Ready for Dispatch,8,1,5,1
+110,Bifocal,1,1,Order Placed,10,1,2,1
+111,Progressive,1,0,Delivered,2,2,5,1
+112,Progressive,3,1,Out for Delivery,7,0,2,1
+113,Bifocal,1,1,Ready for Dispatch,1,0,2,0
+114,Bifocal,1,1,In Production,4,3,2,1
+115,Bifocal,4,0,Delivered,5,3,5,1
+116,Bifocal,3,0,Order Placed,5,2,5,0
+117,Progressive,4,0,Out for Delivery,5,0,5,0
+118,Progressive,1,0,Out for Delivery,6,0,5,0
+119,Single Vision,3,1,Order Placed,3,3,2,1
+120,Bifocal,1,0,Out for Delivery,1,3,5,1
+121,Progressive,4,1,In Production,4,3,2,0
+122,Bifocal,1,0,Order Placed,8,2,5,1
+123,Progressive,4,0,Order Placed,8,2,5,1
+124,Progressive,3,0,Order Placed,6,0,5,0
+125,Single Vision,4,1,Out for Delivery,3,0,2,1
+126,Progressive,4,1,In Production,5,2,2,1
+127,Bifocal,2,0,Out for Delivery,1,2,5,0
+128,Bifocal,3,1,In Production,2,2,2,1
+129,Progressive,3,1,Ready for Dispatch,3,1,2,0
+130,Progressive,3,0,In Production,7,3,5,1
+131,Progressive,4,0,In Production,3,0,5,0
+132,Progressive,4,1,Out for Delivery,4,3,2,1
+133,Single Vision,4,1,Delivered,3,3,2,1
+134,Progressive,1,0,In Production,7,2,5,1
+135,Progressive,1,0,Order Placed,10,0,5,1
+136,Progressive,4,0,In Production,3,2,5,1
+137,Single Vision,3,1,Ready for Dispatch,9,2,2,1
+138,Progressive,4,0,Order Placed,9,1,5,1
+139,Bifocal,3,0,Ready for Dispatch,2,1,5,0
+140,Progressive,3,0,Order Placed,4,1,5,1
+141,Bifocal,3,1,Order Placed,9,0,2,1
+142,Bifocal,2,1,Ready for Dispatch,1,2,2,1
+143,Single Vision,1,1,Order Placed,9,2,2,1
+144,Single Vision,2,1,Order Placed,5,2,2,0
+145,Single Vision,4,0,Delivered,2,1,5,0
+146,Single Vision,2,0,Delivered,8,1,5,1
+147,Progressive,2,0,Order Placed,6,1,5,1
+148,Bifocal,1,1,In Production,7,3,2,1
+149,Single Vision,4,1,Out for Delivery,4,2,2,1
+150,Single Vision,4,1,In Production,4,0,2,1
+151,Single Vision,1,0,Delivered,2,3,5,1
+152,Progressive,4,0,Delivered,2,2,5,0
+153,Progressive,2,1,Delivered,5,1,2,1
+154,Bifocal,3,0,Ready for Dispatch,4,0,5,0
+155,Bifocal,2,0,Delivered,1,1,5,0
+156,Progressive,1,0,Ready for Dispatch,10,2,5,1
+157,Bifocal,4,0,Delivered,6,3,5,1
+158,Single Vision,2,0,Out for Delivery,2,3,5,1
+159,Bifocal,4,1,In Production,8,0,2,0
+160,Bifocal,1,0,Out for Delivery,3,2,5,1
+161,Bifocal,2,0,Delivered,10,3,5,1
+162,Bifocal,3,0,Out for Delivery,3,0,5,0
+163,Progressive,2,1,Ready for Dispatch,1,0,2,0
+164,Single Vision,1,1,Out for Delivery,8,3,2,0
+165,Progressive,1,1,In Production,2,0,2,0
+166,Single Vision,3,1,Out for Delivery,4,1,2,1
+167,Progressive,3,1,Out for Delivery,6,0,2,1
+168,Progressive,3,1,Ready for Dispatch,5,0,2,1
+169,Bifocal,1,1,Ready for Dispatch,9,1,2,0
+170,Single Vision,3,1,Delivered,6,3,2,1
+171,Single Vision,4,1,Ready for Dispatch,3,2,2,1
+172,Bifocal,2,1,In Production,7,1,2,1
+173,Single Vision,2,1,Order Placed,2,2,2,1
+174,Progressive,3,0,Order Placed,8,3,5,1
+175,Bifocal,1,0,In Production,9,2,5,0
+176,Bifocal,3,0,Delivered,2,0,5,0
+177,Bifocal,4,0,In Production,9,1,5,1
+178,Bifocal,3,0,Order Placed,8,1,5,1
+179,Single Vision,1,0,Out for Delivery,7,3,5,1
+180,Progressive,4,1,Ready for Dispatch,10,2,2,1
+181,Single Vision,4,1,In Production,6,1,2,1
+182,Single Vision,1,0,Delivered,9,3,5,1
+183,Single Vision,1,1,In Production,4,2,2,0
+184,Single Vision,4,0,Ready for Dispatch,5,3,5,0
+185,Bifocal,1,1,Out for Delivery,1,2,2,1
+186,Progressive,2,1,Ready for Dispatch,1,1,2,0
+187,Bifocal,2,0,Ready for Dispatch,6,0,5,0
+188,Bifocal,3,1,Ready for Dispatch,9,3,2,1
+189,Single Vision,4,0,Order Placed,1,1,5,0
+190,Bifocal,4,1,Ready for Dispatch,7,0,2,1
+191,Progressive,3,1,In Production,3,1,2,1
+192,Bifocal,1,0,In Production,10,3,5,0
+193,Bifocal,4,1,Ready for Dispatch,10,0,2,1
+194,Progressive,4,1,Order Placed,6,0,2,1
+195,Bifocal,4,1,Out for Delivery,8,1,2,0
+196,Progressive,2,0,Delivered,1,2,5,0
+197,Bifocal,3,1,Order Placed,7,0,2,1
+198,Progressive,2,1,Out for Delivery,3,3,2,1
+199,Single Vision,2,0,In Production,6,3,5,1
+200,Single Vision,3,0,Delivered,9,0,5,1
+201,Single Vision,1,1,Out for Delivery,1,3,2,1
+202,Single Vision,1,1,Order Placed,10,2,2,0
+203,Bifocal,1,0,Out for Delivery,3,3,5,0
+204,Single Vision,3,1,Out for Delivery,6,0,2,1
+205,Single Vision,4,1,Ready for Dispatch,2,0,2,1
+206,Progressive,2,1,Out for Delivery,4,2,2,1
+207,Progressive,3,1,In Production,8,1,2,0
+208,Progressive,4,1,Delivered,9,1,2,1
+209,Progressive,3,1,In Production,7,1,2,1
+210,Single Vision,2,1,Order Placed,1,2,2,1
+211,Single Vision,3,1,Delivered,10,0,2,0
+212,Bifocal,2,1,Order Placed,4,3,2,0
+213,Bifocal,2,1,In Production,1,0,2,0
+214,Bifocal,3,1,Out for Delivery,1,1,2,1
+215,Progressive,3,0,In Production,8,0,5,1
+216,Bifocal,3,0,Order Placed,9,0,5,0
+217,Progressive,3,1,Order Placed,5,3,2,1
+218,Single Vision,1,0,Out for Delivery,5,2,5,1
+219,Bifocal,3,0,Delivered,8,0,5,1
+220,Progressive,4,1,Out for Delivery,8,0,2,0
+221,Single Vision,1,1,Order Placed,8,2,2,1
+222,Bifocal,3,1,In Production,5,1,2,0
+223,Bifocal,3,0,In Production,5,3,5,1
+224,Progressive,2,0,In Production,1,2,5,0
+225,Single Vision,4,0,Order Placed,10,1,5,1
+226,Single Vision,2,0,Delivered,10,2,5,1
+227,Progressive,3,0,Order Placed,3,3,5,1
+228,Bifocal,4,1,In Production,8,1,2,1
+229,Single Vision,1,0,Delivered,2,1,5,0
+230,Single Vision,2,1,In Production,10,0,2,1
+231,Bifocal,3,1,Ready for Dispatch,7,0,2,1
+232,Progressive,1,0,Order Placed,4,1,5,0
+233,Progressive,4,1,Ready for Dispatch,8,3,2,1
+234,Progressive,1,1,Ready for Dispatch,4,0,2,1
+235,Progressive,2,0,Delivered,6,1,5,1
+236,Bifocal,2,0,Delivered,7,2,5,1
+237,Bifocal,3,0,Out for Delivery,5,2,5,1
+238,Bifocal,2,1,Delivered,9,2,2,1
+239,Progressive,1,1,Out for Delivery,8,3,2,1
+240,Bifocal,4,0,Order Placed,3,2,5,1
+241,Bifocal,3,0,In Production,4,1,5,1
+242,Bifocal,3,1,In Production,7,0,2,0
+243,Progressive,2,0,In Production,1,0,5,0
+244,Progressive,2,0,Ready for Dispatch,2,0,5,0
+245,Progressive,3,0,Delivered,9,3,5,1
+246,Bifocal,2,1,In Production,1,0,2,0
+247,Progressive,2,1,Order Placed,2,3,2,1
+248,Bifocal,2,0,Out for Delivery,5,2,5,0
+249,Progressive,3,1,Out for Delivery,1,2,2,1
+250,Single Vision,1,1,Out for Delivery,6,3,2,1
+251,Progressive,4,0,Order Placed,2,0,5,0
+252,Bifocal,1,0,Delivered,5,0,5,0
+253,Bifocal,2,0,Order Placed,5,1,5,1
+254,Single Vision,2,0,Order Placed,9,2,5,1
+255,Progressive,4,1,Delivered,4,2,2,0
+256,Bifocal,4,0,Out for Delivery,10,3,5,0
+257,Progressive,2,0,Out for Delivery,6,2,5,1
+258,Single Vision,2,1,In Production,5,2,2,1
+259,Bifocal,3,1,Order Placed,1,3,2,1
+260,Single Vision,2,1,Out for Delivery,8,1,2,1
+261,Bifocal,2,1,Out for Delivery,4,0,2,1
+262,Bifocal,4,0,Order Placed,4,3,5,1
+263,Progressive,2,0,In Production,4,0,5,0
+264,Bifocal,1,1,Out for Delivery,10,3,2,1
+265,Progressive,4,0,Ready for Dispatch,1,2,5,0
+266,Single Vision,1,1,Delivered,8,0,2,1
+267,Single Vision,2,1,Ready for Dispatch,4,2,2,1
+268,Bifocal,2,1,Delivered,4,1,2,1
+269,Single Vision,3,1,In Production,6,2,2,1
+270,Single Vision,2,0,Order Placed,10,1,5,0
+271,Single Vision,2,1,Order Placed,3,1,2,0
+272,Progressive,2,0,Delivered,5,0,5,0
+273,Single Vision,2,0,Out for Delivery,2,3,5,1
+274,Progressive,4,1,Ready for Dispatch,6,2,2,1
+275,Progressive,2,0,Delivered,8,2,5,1
+276,Bifocal,1,1,Out for Delivery,9,1,2,1
+277,Bifocal,1,1,Out for Delivery,10,3,2,1
+278,Bifocal,2,1,Order Placed,1,1,2,0
+279,Bifocal,4,0,Order Placed,2,2,5,1
+280,Single Vision,2,1,Order Placed,4,0,2,0
+281,Bifocal,4,0,Out for Delivery,1,3,5,1
+282,Progressive,2,0,Order Placed,9,0,5,1
+283,Bifocal,3,1,Delivered,4,2,2,1
+284,Bifocal,3,0,Delivered,8,3,5,0
+285,Progressive,4,0,Ready for Dispatch,4,2,5,1
+286,Bifocal,2,0,Out for Delivery,6,1,5,1
+287,Single Vision,1,0,Out for Delivery,2,3,5,0
+288,Single Vision,3,0,Delivered,1,1,5,0
+289,Bifocal,3,0,In Production,1,0,5,0
+290,Single Vision,1,0,Order Placed,7,3,5,1
+291,Progressive,2,1,Ready for Dispatch,9,3,2,1
+292,Single Vision,4,0,Delivered,2,1,5,0
+293,Progressive,3,1,Out for Delivery,3,1,2,1
+294,Bifocal,4,1,Order Placed,5,3,2,1
+295,Single Vision,2,0,Ready for Dispatch,3,1,5,0
+296,Bifocal,2,0,Out for Delivery,8,3,5,1
+297,Single Vision,4,1,Ready for Dispatch,1,0,2,0
+298,Single Vision,4,0,Order Placed,8,2,5,1
+299,Single Vision,2,0,Ready for Dispatch,7,2,5,1
+300,Bifocal,4,1,Order Placed,4,2,2,1
+301,Progressive,3,0,Order Placed,5,1,5,1
+302,Progressive,2,0,Ready for Dispatch,10,2,5,1
+303,Bifocal,2,0,Order Placed,4,3,5,1
+304,Progressive,2,0,Ready for Dispatch,4,2,5,1
+305,Single Vision,4,1,Delivered,8,3,2,1
+306,Progressive,3,1,Ready for Dispatch,1,0,2,0
+307,Single Vision,4,0,Order Placed,8,0,5,1
+308,Bifocal,3,0,Order Placed,2,2,5,1
+309,Bifocal,3,0,Delivered,4,2,5,1
+310,Single Vision,4,0,Out for Delivery,4,2,5,1
+311,Progressive,3,0,In Production,5,0,5,1
+312,Progressive,2,0,In Production,7,0,5,1
+313,Progressive,1,1,Delivered,3,3,2,1
+314,Progressive,4,1,Order Placed,9,1,2,1
+315,Progressive,4,1,In Production,7,1,2,1
+316,Progressive,4,1,In Production,3,0,2,1
+317,Progressive,4,1,Delivered,8,1,2,0
+318,Progressive,2,1,Delivered,9,3,2,1
+319,Single Vision,1,1,In Production,10,0,2,1
+320,Bifocal,2,1,Out for Delivery,10,1,2,1
+321,Progressive,2,0,Ready for Dispatch,6,3,5,1
+322,Bifocal,3,1,Order Placed,9,1,2,1
+323,Single Vision,1,1,Out for Delivery,4,1,2,1
+324,Bifocal,2,0,Out for Delivery,5,3,5,1
+325,Progressive,2,1,Order Placed,7,1,2,1
+326,Progressive,1,0,Ready for Dispatch,6,0,5,0
+327,Progressive,1,0,Out for Delivery,5,1,5,1
+328,Single Vision,3,1,Ready for Dispatch,1,2,2,1
+329,Bifocal,1,0,In Production,1,1,5,0
+330,Bifocal,3,0,Out for Delivery,2,2,5,1
+331,Progressive,4,0,Ready for Dispatch,7,2,5,1
+332,Single Vision,2,0,In Production,4,1,5,1
+333,Bifocal,4,1,Order Placed,2,1,2,1
+334,Single Vision,3,1,In Production,2,1,2,1
+335,Bifocal,1,0,Ready for Dispatch,5,1,5,1
+336,Bifocal,1,1,In Production,1,0,2,1
+337,Progressive,2,0,Delivered,9,0,5,1
+338,Single Vision,2,0,Out for Delivery,7,2,5,0
+339,Progressive,3,1,Delivered,8,1,2,1
+340,Single Vision,2,1,Order Placed,5,2,2,0
+341,Bifocal,3,1,Order Placed,7,0,2,1
+342,Single Vision,3,0,Delivered,10,0,5,1
+343,Single Vision,3,0,In Production,5,1,5,1
+344,Single Vision,4,0,In Production,10,3,5,1
+345,Bifocal,4,1,Out for Delivery,4,0,2,1
+346,Bifocal,3,1,Ready for Dispatch,9,3,2,1
+347,Bifocal,1,0,Order Placed,5,0,5,0
+348,Bifocal,4,0,Delivered,9,0,5,0
+349,Single Vision,2,1,Ready for Dispatch,7,0,2,1
+350,Bifocal,1,0,Ready for Dispatch,7,3,5,1
+351,Bifocal,1,1,Delivered,2,3,2,0
+352,Bifocal,1,1,Ready for Dispatch,5,2,2,1
+353,Progressive,1,0,Order Placed,9,2,5,1
+354,Bifocal,4,0,In Production,5,0,5,0
+355,Bifocal,2,1,Out for Delivery,2,0,2,0
+356,Bifocal,1,0,Delivered,9,0,5,1
+357,Single Vision,2,0,Ready for Dispatch,7,3,5,1
+358,Single Vision,4,1,Ready for Dispatch,4,3,2,0
+359,Bifocal,3,0,Order Placed,2,1,5,0
+360,Progressive,1,1,Delivered,4,1,2,1
+361,Bifocal,4,0,Out for Delivery,1,0,5,0
+362,Bifocal,3,1,Ready for Dispatch,2,3,2,1
+363,Single Vision,4,0,Out for Delivery,7,3,5,1
+364,Progressive,2,0,Delivered,5,0,5,0
+365,Single Vision,1,0,Ready for Dispatch,7,0,5,1
+366,Bifocal,4,0,Order Placed,5,1,5,1
+367,Single Vision,3,0,Out for Delivery,2,0,5,1
+368,Bifocal,3,1,Out for Delivery,4,2,2,1
+369,Bifocal,1,0,Order Placed,4,2,5,1
+370,Progressive,2,0,Delivered,6,1,5,1
+371,Progressive,2,1,In Production,1,0,2,0
+372,Bifocal,2,0,Ready for Dispatch,9,3,5,1
+373,Single Vision,2,0,Order Placed,7,0,5,0
+374,Single Vision,1,0,In Production,1,1,5,0
+375,Bifocal,3,1,Ready for Dispatch,7,3,2,1
+376,Bifocal,3,0,In Production,10,2,5,1
+377,Bifocal,2,1,In Production,7,1,2,1
+378,Bifocal,2,0,Delivered,5,2,5,1
+379,Single Vision,3,0,Out for Delivery,1,1,5,0
+380,Single Vision,2,0,Ready for Dispatch,9,2,5,0
+381,Bifocal,2,1,Delivered,8,2,2,0
+382,Single Vision,4,1,Out for Delivery,3,3,2,1
+383,Single Vision,2,1,Delivered,2,1,2,1
+384,Bifocal,4,1,Ready for Dispatch,5,3,2,1
+385,Single Vision,3,0,Delivered,6,2,5,1
+386,Bifocal,2,1,In Production,7,0,2,1
+387,Single Vision,3,1,Ready for Dispatch,7,2,2,1
+388,Single Vision,2,1,In Production,7,3,2,1
+389,Bifocal,4,1,In Production,6,1,2,1
+390,Single Vision,1,0,Order Placed,3,0,5,0
+391,Single Vision,2,1,Ready for Dispatch,8,0,2,1
+392,Single Vision,1,0,Ready for Dispatch,2,1,5,0
+393,Progressive,4,0,Ready for Dispatch,7,0,5,1
+394,Single Vision,2,0,Ready for Dispatch,8,1,5,0
+395,Progressive,1,0,Ready for Dispatch,6,1,5,1
+396,Progressive,1,0,Ready for Dispatch,9,0,5,1
+397,Progressive,1,0,Order Placed,8,1,5,1
+398,Progressive,1,1,Out for Delivery,8,2,2,1
+399,Bifocal,3,0,Delivered,1,1,5,0
+400,Bifocal,1,0,Delivered,2,1,5,0
+401,Bifocal,2,1,Out for Delivery,5,1,2,1
+402,Bifocal,3,0,Delivered,8,2,5,1
+403,Bifocal,1,0,Order Placed,6,3,5,1
+404,Single Vision,1,1,Ready for Dispatch,8,3,2,1
+405,Single Vision,4,1,Out for Delivery,10,1,2,0
+406,Progressive,1,1,Out for Delivery,5,1,2,1
+407,Bifocal,2,1,Delivered,1,0,2,0
+408,Single Vision,4,1,Ready for Dispatch,7,3,2,1
+409,Single Vision,2,0,Delivered,1,2,5,1
+410,Bifocal,1,1,Delivered,4,1,2,0
+411,Bifocal,1,1,Ready for Dispatch,9,1,2,1
+412,Progressive,2,1,Out for Delivery,1,2,2,1
+413,Single Vision,1,1,Ready for Dispatch,3,1,2,1
+414,Bifocal,4,1,In Production,8,0,2,1
+415,Single Vision,3,1,Ready for Dispatch,2,1,2,0
+416,Progressive,4,0,In Production,4,2,5,0
+417,Single Vision,2,1,Order Placed,2,3,2,1
+418,Progressive,1,1,Order Placed,1,3,2,0
+419,Bifocal,3,0,Order Placed,5,0,5,0
+420,Progressive,1,1,Delivered,3,0,2,1
+421,Single Vision,4,0,Order Placed,10,3,5,1
+422,Bifocal,2,1,In Production,9,3,2,1
+423,Progressive,4,1,Order Placed,10,2,2,1
+424,Bifocal,4,1,Out for Delivery,8,2,2,1
+425,Single Vision,2,1,Order Placed,10,0,2,1
+426,Bifocal,3,0,Ready for Dispatch,2,1,5,0
+427,Single Vision,3,1,Order Placed,2,1,2,1
+428,Bifocal,1,0,Delivered,2,3,5,1
+429,Bifocal,4,0,Out for Delivery,8,3,5,1
+430,Bifocal,4,0,Order Placed,1,2,5,0
+431,Bifocal,3,0,In Production,6,3,5,1
+432,Single Vision,2,0,Delivered,5,0,5,0
+433,Single Vision,4,0,Out for Delivery,4,1,5,1
+434,Bifocal,3,1,Order Placed,1,3,2,0
+435,Bifocal,1,1,Delivered,7,2,2,1
+436,Single Vision,1,0,Out for Delivery,5,3,5,1
+437,Progressive,2,0,Order Placed,5,1,5,1
+438,Progressive,4,0,In Production,6,3,5,1
+439,Bifocal,2,1,In Production,9,1,2,1
+440,Single Vision,3,0,Order Placed,9,1,5,1
+441,Bifocal,1,0,Delivered,10,0,5,0
+442,Bifocal,1,1,Ready for Dispatch,9,0,2,1
+443,Bifocal,1,0,Out for Delivery,7,1,5,1
+444,Single Vision,2,1,Delivered,9,2,2,1
+445,Bifocal,2,1,In Production,5,2,2,1
+446,Bifocal,4,0,Ready for Dispatch,10,2,5,0
+447,Bifocal,1,0,Out for Delivery,9,1,5,1
+448,Bifocal,1,0,In Production,1,0,5,0
+449,Bifocal,1,0,Delivered,10,1,5,1
+450,Progressive,1,1,Ready for Dispatch,8,3,2,1
+451,Bifocal,2,0,Delivered,10,1,5,1
+452,Bifocal,2,0,In Production,5,2,5,1
+453,Progressive,2,1,Out for Delivery,8,3,2,1
+454,Single Vision,2,0,Out for Delivery,5,0,5,0
+455,Bifocal,3,1,Out for Delivery,1,0,2,0
+456,Bifocal,1,0,Order Placed,6,2,5,1
+457,Single Vision,4,1,Order Placed,6,0,2,1
+458,Single Vision,3,0,Out for Delivery,3,2,5,1
+459,Bifocal,4,1,Delivered,9,3,2,1
+460,Single Vision,4,1,Ready for Dispatch,5,1,2,0
+461,Bifocal,4,1,Out for Delivery,4,2,2,1
+462,Bifocal,2,1,In Production,8,0,2,1
+463,Single Vision,1,0,Ready for Dispatch,5,2,5,1
+464,Bifocal,1,0,Out for Delivery,7,2,5,1
+465,Single Vision,1,1,Delivered,5,0,2,1
+466,Bifocal,2,0,Out for Delivery,1,2,5,0
+467,Bifocal,2,1,Ready for Dispatch,3,3,2,1
+468,Single Vision,1,0,Out for Delivery,10,1,5,1
+469,Single Vision,3,1,Ready for Dispatch,4,0,2,1
+470,Bifocal,1,1,Ready for Dispatch,1,1,2,0
+471,Progressive,3,1,Ready for Dispatch,2,0,2,1
+472,Bifocal,4,0,Order Placed,6,2,5,1
+473,Single Vision,2,1,Delivered,3,2,2,0
+474,Single Vision,4,1,Delivered,2,1,2,0
+475,Bifocal,3,1,Out for Delivery,2,1,2,0
+476,Progressive,2,0,Delivered,8,1,5,1
+477,Bifocal,2,1,Order Placed,3,0,2,1
+478,Bifocal,2,0,Order Placed,5,1,5,0
+479,Progressive,3,0,Order Placed,5,0,5,0
+480,Bifocal,1,0,Order Placed,3,1,5,0
+481,Progressive,4,0,In Production,10,2,5,1
+482,Progressive,3,1,Order Placed,2,2,2,1
+483,Single Vision,2,1,Ready for Dispatch,2,1,2,0
+484,Bifocal,3,1,In Production,7,2,2,1
+485,Progressive,2,1,Order Placed,8,2,2,0
+486,Progressive,1,1,Delivered,1,2,2,1
+487,Bifocal,3,1,Out for Delivery,9,0,2,1
+488,Bifocal,1,1,Ready for Dispatch,8,2,2,1
+489,Single Vision,4,0,Delivered,7,1,5,1
+490,Single Vision,1,0,Order Placed,9,2,5,1
+491,Bifocal,4,1,In Production,10,0,2,1
+492,Single Vision,3,0,In Production,2,1,5,0
+493,Progressive,2,1,In Production,2,0,2,0
+494,Progressive,3,1,Ready for Dispatch,10,2,2,1
+495,Single Vision,2,0,Ready for Dispatch,5,3,5,1
+496,Single Vision,4,0,Ready for Dispatch,4,0,5,0
+497,Bifocal,4,0,Order Placed,5,3,5,1
+498,Progressive,1,1,Ready for Dispatch,6,1,2,1
+499,Bifocal,2,0,Order Placed,4,1,5,1
+500,Single Vision,3,1,Delivered,9,2,2,1
+501,Progressive,3,1,Delivered,1,0,2,0
+502,Single Vision,3,1,In Production,2,0,2,0
+503,Single Vision,2,0,Delivered,2,3,5,1
+504,Progressive,1,0,Ready for Dispatch,5,3,5,1
+505,Single Vision,2,1,In Production,10,2,2,0
+506,Bifocal,4,1,Delivered,4,1,2,0
+507,Single Vision,2,0,Out for Delivery,7,0,5,1
+508,Single Vision,4,0,Ready for Dispatch,9,2,5,1
+509,Single Vision,2,0,Ready for Dispatch,6,3,5,1
+510,Bifocal,4,0,Ready for Dispatch,7,2,5,1
+511,Bifocal,3,0,In Production,3,3,5,0
+512,Single Vision,1,0,Ready for Dispatch,10,3,5,1
+513,Single Vision,4,1,Out for Delivery,1,2,2,1
+514,Single Vision,4,0,In Production,4,3,5,1
+515,Progressive,2,0,Out for Delivery,3,0,5,0
+516,Single Vision,4,0,Order Placed,5,2,5,1
+517,Bifocal,4,0,In Production,4,1,5,1
+518,Progressive,1,1,Ready for Dispatch,1,1,2,1
+519,Single Vision,2,0,Ready for Dispatch,9,3,5,1
+520,Bifocal,1,0,Out for Delivery,2,3,5,1
+521,Bifocal,4,1,Ready for Dispatch,3,3,2,1
+522,Progressive,4,1,Order Placed,8,0,2,1
+523,Bifocal,1,0,Out for Delivery,9,3,5,1
+524,Bifocal,2,1,Order Placed,2,0,2,0
+525,Bifocal,1,1,Delivered,7,3,2,1
+526,Bifocal,1,1,In Production,1,2,2,1
+527,Single Vision,4,0,In Production,5,3,5,1
+528,Single Vision,4,0,Delivered,9,1,5,1
+529,Bifocal,1,0,Delivered,5,2,5,1
+530,Bifocal,1,0,In Production,9,1,5,1
+531,Progressive,2,1,Delivered,7,0,2,1
+532,Single Vision,2,1,In Production,8,0,2,0
+533,Bifocal,3,1,In Production,8,2,2,1
+534,Single Vision,2,1,In Production,3,1,2,0
+535,Progressive,2,0,Ready for Dispatch,4,3,5,1
+536,Single Vision,3,1,Order Placed,9,2,2,1
+537,Progressive,3,1,Out for Delivery,10,3,2,1
+538,Single Vision,1,1,In Production,9,0,2,0
+539,Bifocal,4,1,Ready for Dispatch,10,1,2,1
+540,Bifocal,3,0,Delivered,3,3,5,1
+541,Single Vision,2,1,Out for Delivery,2,2,2,1
+542,Progressive,1,1,Ready for Dispatch,1,0,2,1
+543,Single Vision,1,0,Order Placed,4,2,5,1
+544,Single Vision,3,0,Delivered,2,0,5,0
+545,Progressive,2,0,In Production,1,0,5,0
+546,Progressive,2,0,Ready for Dispatch,5,1,5,1
+547,Bifocal,4,0,Order Placed,4,3,5,1
+548,Progressive,4,0,Order Placed,6,1,5,1
+549,Single Vision,4,0,In Production,9,2,5,1
+550,Progressive,2,1,Ready for Dispatch,2,3,2,1
+551,Single Vision,4,0,Out for Delivery,1,1,5,0
+552,Bifocal,2,1,Ready for Dispatch,3,1,2,1
+553,Bifocal,4,1,In Production,1,0,2,0
+554,Progressive,4,1,In Production,6,1,2,1
+555,Bifocal,1,1,Order Placed,1,0,2,0
+556,Single Vision,2,1,Delivered,3,3,2,1
+557,Progressive,4,0,Out for Delivery,8,2,5,1
+558,Bifocal,4,0,Ready for Dispatch,4,3,5,1
+559,Progressive,1,0,Order Placed,4,3,5,1
+560,Single Vision,4,1,Ready for Dispatch,8,2,2,0
+561,Progressive,3,0,Ready for Dispatch,6,2,5,1
+562,Progressive,2,0,Order Placed,3,0,5,0
+563,Bifocal,3,1,Out for Delivery,2,0,2,0
+564,Progressive,4,1,Delivered,9,0,2,1
+565,Bifocal,4,1,Delivered,3,2,2,0
+566,Bifocal,4,1,Ready for Dispatch,2,0,2,0
+567,Single Vision,1,1,Ready for Dispatch,1,3,2,1
+568,Bifocal,1,1,Delivered,4,1,2,1
+569,Progressive,3,1,Delivered,3,3,2,1
+570,Single Vision,2,1,Delivered,2,1,2,1
+571,Progressive,4,0,In Production,8,2,5,0
+572,Progressive,1,1,Order Placed,8,2,2,1
+573,Bifocal,1,1,In Production,7,3,2,1
+574,Single Vision,1,0,In Production,7,1,5,1
+575,Progressive,1,0,Ready for Dispatch,5,0,5,0
+576,Single Vision,3,0,Order Placed,4,2,5,1
+577,Progressive,2,1,Ready for Dispatch,5,0,2,0
+578,Bifocal,2,0,Out for Delivery,10,1,5,1
+579,Bifocal,2,1,Out for Delivery,6,1,2,0
+580,Bifocal,4,1,Delivered,5,1,2,1
+581,Bifocal,4,0,In Production,7,3,5,1
+582,Bifocal,2,1,Order Placed,8,2,2,0
+583,Single Vision,1,1,Order Placed,7,2,2,1
+584,Progressive,1,1,Order Placed,1,1,2,0
+585,Single Vision,3,0,In Production,5,2,5,1
+586,Progressive,2,1,In Production,6,2,2,1
+587,Single Vision,2,1,Ready for Dispatch,4,1,2,1
+588,Single Vision,1,0,Out for Delivery,4,3,5,1
+589,Progressive,2,1,In Production,2,1,2,0
+590,Progressive,2,0,Delivered,3,3,5,1
+591,Single Vision,2,1,In Production,9,1,2,0
+592,Progressive,4,1,Ready for Dispatch,3,1,2,1
+593,Progressive,2,0,Ready for Dispatch,1,2,5,0
+594,Single Vision,1,0,Order Placed,2,1,5,1
+595,Bifocal,1,0,Ready for Dispatch,8,0,5,1
+596,Single Vision,3,0,Delivered,7,1,5,1
+597,Single Vision,2,0,Delivered,3,1,5,0
+598,Single Vision,1,1,Delivered,6,1,2,1
+599,Bifocal,4,0,Ready for Dispatch,6,0,5,1
+600,Single Vision,2,1,Out for Delivery,7,0,2,1
+601,Progressive,4,1,Order Placed,10,0,2,1
+602,Progressive,4,0,Delivered,8,3,5,1
+603,Progressive,3,0,In Production,2,3,5,0
+604,Bifocal,1,1,Delivered,7,1,2,1
+605,Single Vision,4,0,Delivered,4,3,5,1
+606,Bifocal,2,1,Out for Delivery,2,1,2,1
+607,Bifocal,1,1,Out for Delivery,2,0,2,0
+608,Single Vision,2,0,Out for Delivery,3,2,5,1
+609,Single Vision,1,0,Ready for Dispatch,5,3,5,1
+610,Bifocal,3,0,Out for Delivery,9,2,5,0
+611,Bifocal,4,1,Order Placed,2,0,2,0
+612,Bifocal,4,1,Order Placed,7,2,2,1
+613,Progressive,2,1,Order Placed,7,0,2,0
+614,Progressive,4,0,Order Placed,10,1,5,1
+615,Bifocal,4,1,Ready for Dispatch,2,3,2,1
+616,Progressive,3,0,Order Placed,6,0,5,0
+617,Bifocal,1,1,Out for Delivery,6,2,2,0
+618,Single Vision,1,0,Ready for Dispatch,8,2,5,1
+619,Progressive,2,1,Out for Delivery,3,0,2,1
+620,Bifocal,2,1,Order Placed,7,3,2,1
+621,Progressive,4,1,Ready for Dispatch,9,3,2,1
+622,Progressive,3,0,Ready for Dispatch,5,1,5,1
+623,Single Vision,2,1,Delivered,2,1,2,1
+624,Progressive,4,1,Out for Delivery,2,3,2,1
+625,Single Vision,1,1,Order Placed,8,2,2,1
+626,Single Vision,1,0,Delivered,10,1,5,1
+627,Bifocal,3,1,Out for Delivery,9,2,2,1
+628,Single Vision,3,1,Delivered,5,3,2,0
+629,Single Vision,1,1,Order Placed,6,3,2,1
+630,Bifocal,2,0,Delivered,6,2,5,1
+631,Single Vision,1,0,Delivered,6,0,5,1
+632,Single Vision,1,0,Out for Delivery,10,3,5,1
+633,Progressive,1,0,Delivered,4,2,5,1
+634,Single Vision,3,1,Ready for Dispatch,5,3,2,0
+635,Bifocal,2,1,Ready for Dispatch,7,3,2,1
+636,Single Vision,3,1,Order Placed,9,0,2,1
+637,Single Vision,4,0,Out for Delivery,1,3,5,1
+638,Bifocal,2,0,In Production,2,1,5,0
+639,Progressive,2,1,In Production,8,2,2,1
+640,Single Vision,1,1,Ready for Dispatch,9,2,2,1
+641,Progressive,3,0,Ready for Dispatch,9,1,5,0
+642,Single Vision,2,1,Delivered,10,1,2,1
+643,Single Vision,4,0,Order Placed,9,0,5,1
+644,Bifocal,2,0,Order Placed,9,1,5,1
+645,Single Vision,1,1,Ready for Dispatch,3,0,2,1
+646,Single Vision,3,1,In Production,3,0,2,1
+647,Progressive,1,0,Order Placed,3,1,5,0
+648,Single Vision,1,1,Ready for Dispatch,5,3,2,1
+649,Bifocal,1,1,Delivered,10,3,2,1
+650,Bifocal,4,1,Ready for Dispatch,1,3,2,1
+651,Progressive,4,0,Ready for Dispatch,9,0,5,1
+652,Bifocal,1,1,Out for Delivery,5,0,2,1
+653,Single Vision,1,1,In Production,9,1,2,1
+654,Single Vision,4,1,Ready for Dispatch,9,2,2,1
+655,Single Vision,4,1,Out for Delivery,7,3,2,0
+656,Single Vision,2,1,Delivered,10,3,2,1
+657,Single Vision,2,0,Out for Delivery,1,3,5,1
+658,Single Vision,2,1,Ready for Dispatch,6,2,2,1
+659,Progressive,2,0,Ready for Dispatch,8,1,5,1
+660,Progressive,3,1,Ready for Dispatch,6,3,2,1
+661,Bifocal,2,1,Out for Delivery,3,0,2,0
+662,Bifocal,1,1,Ready for Dispatch,3,2,2,1
+663,Bifocal,2,0,Order Placed,7,1,5,1
+664,Progressive,1,1,Ready for Dispatch,6,0,2,1
+665,Progressive,3,1,Order Placed,10,0,2,1
+666,Bifocal,2,0,Delivered,10,0,5,1
+667,Bifocal,1,1,Out for Delivery,3,3,2,1
+668,Progressive,2,0,Order Placed,5,1,5,0
+669,Single Vision,3,1,Out for Delivery,9,2,2,1
+670,Progressive,1,1,In Production,6,0,2,1
+671,Bifocal,3,1,Ready for Dispatch,3,0,2,1
+672,Progressive,4,1,Out for Delivery,1,1,2,0
+673,Progressive,4,1,Delivered,2,3,2,1
+674,Single Vision,3,0,In Production,3,0,5,0
+675,Progressive,2,1,Out for Delivery,5,0,2,1
+676,Progressive,1,1,In Production,9,3,2,1
+677,Single Vision,1,1,Delivered,7,1,2,1
+678,Single Vision,2,0,In Production,7,0,5,1
+679,Progressive,3,1,Order Placed,3,1,2,1
+680,Progressive,4,0,Delivered,5,2,5,1
+681,Bifocal,3,0,Order Placed,4,1,5,1
+682,Single Vision,3,1,In Production,10,1,2,0
+683,Single Vision,3,0,Delivered,2,2,5,1
+684,Progressive,3,0,In Production,6,3,5,1
+685,Progressive,3,0,Out for Delivery,5,3,5,1
+686,Progressive,4,0,Ready for Dispatch,1,2,5,0
+687,Progressive,2,1,Ready for Dispatch,2,1,2,1
+688,Bifocal,2,0,Ready for Dispatch,9,0,5,1
+689,Bifocal,3,1,In Production,9,2,2,1
+690,Single Vision,2,1,Delivered,1,3,2,0
+691,Single Vision,3,1,Order Placed,10,3,2,1
+692,Single Vision,2,1,Order Placed,6,3,2,1
+693,Bifocal,1,1,In Production,8,2,2,1
+694,Progressive,4,1,Out for Delivery,9,1,2,0
+695,Single Vision,3,0,In Production,2,3,5,0
+696,Bifocal,1,1,Delivered,3,0,2,1
+697,Bifocal,1,1,Ready for Dispatch,4,1,2,1
+698,Bifocal,4,1,In Production,9,0,2,0
+699,Bifocal,4,1,Out for Delivery,1,2,2,0
+700,Single Vision,2,1,In Production,9,1,2,0
+701,Bifocal,4,0,Order Placed,8,1,5,0
+702,Bifocal,2,1,Order Placed,4,0,2,1
+703,Single Vision,1,1,Ready for Dispatch,1,0,2,1
+704,Bifocal,4,1,Ready for Dispatch,1,2,2,0
+705,Bifocal,3,1,Ready for Dispatch,7,0,2,1
+706,Progressive,3,0,Order Placed,2,0,5,1
+707,Progressive,4,1,In Production,8,0,2,1
+708,Single Vision,4,0,Ready for Dispatch,10,3,5,1
+709,Progressive,2,0,Delivered,8,1,5,0
+710,Single Vision,3,1,Order Placed,7,1,2,1
+711,Progressive,3,0,In Production,6,3,5,1
+712,Bifocal,4,0,Ready for Dispatch,7,3,5,1
+713,Single Vision,2,0,In Production,1,3,5,1
+714,Progressive,2,0,Out for Delivery,3,2,5,0
+715,Single Vision,4,1,Order Placed,9,0,2,1
+716,Single Vision,3,0,Out for Delivery,2,1,5,0
+717,Single Vision,1,0,In Production,9,3,5,1
+718,Progressive,1,0,Order Placed,3,2,5,1
+719,Bifocal,1,0,Delivered,8,2,5,1
+720,Progressive,4,1,Order Placed,3,2,2,1
+721,Bifocal,3,1,Ready for Dispatch,8,1,2,0
+722,Bifocal,2,1,In Production,3,0,2,1
+723,Single Vision,1,1,Order Placed,7,1,2,1
+724,Bifocal,4,1,Delivered,7,3,2,1
+725,Single Vision,2,1,Out for Delivery,4,1,2,1
+726,Bifocal,1,0,Ready for Dispatch,10,1,5,0
+727,Progressive,2,0,Out for Delivery,3,1,5,0
+728,Progressive,2,1,Order Placed,4,0,2,1
+729,Single Vision,3,0,Delivered,5,2,5,0
+730,Bifocal,1,0,Out for Delivery,2,2,5,1
+731,Single Vision,1,1,Ready for Dispatch,10,0,2,1
+732,Single Vision,4,0,Delivered,6,3,5,1
+733,Single Vision,3,0,Delivered,2,2,5,0
+734,Single Vision,2,1,Ready for Dispatch,5,3,2,1
+735,Single Vision,3,0,Delivered,4,3,5,1
+736,Bifocal,3,1,Out for Delivery,6,2,2,0
+737,Bifocal,3,1,Out for Delivery,3,2,2,1
+738,Progressive,2,1,In Production,7,3,2,1
+739,Single Vision,1,0,Out for Delivery,2,0,5,0
+740,Bifocal,3,0,In Production,2,1,5,0
+741,Single Vision,4,0,Out for Delivery,2,2,5,0
+742,Progressive,3,0,In Production,3,3,5,1
+743,Bifocal,2,1,In Production,2,1,2,1
+744,Bifocal,3,1,Out for Delivery,7,0,2,1
+745,Progressive,1,1,Ready for Dispatch,8,2,2,1
+746,Progressive,1,1,Out for Delivery,4,0,2,1
+747,Single Vision,2,1,Delivered,3,0,2,0
+748,Single Vision,3,0,Ready for Dispatch,1,2,5,0
+749,Single Vision,4,1,Out for Delivery,10,0,2,1
+750,Bifocal,1,1,Ready for Dispatch,4,1,2,1
+751,Bifocal,3,0,Delivered,10,0,5,1
+752,Bifocal,2,1,Ready for Dispatch,2,1,2,1
+753,Bifocal,3,1,Out for Delivery,10,3,2,0
+754,Progressive,3,0,Order Placed,9,3,5,1
+755,Bifocal,2,0,Order Placed,1,3,5,1
+756,Single Vision,4,1,Out for Delivery,9,0,2,1
+757,Bifocal,1,0,In Production,9,1,5,1
+758,Progressive,3,0,Out for Delivery,6,0,5,0
+759,Single Vision,4,0,In Production,9,3,5,1
+760,Bifocal,2,1,Order Placed,5,0,2,1
+761,Single Vision,2,0,Ready for Dispatch,10,1,5,0
+762,Single Vision,1,1,Delivered,4,0,2,0
+763,Progressive,3,0,Ready for Dispatch,8,0,5,1
+764,Single Vision,4,1,In Production,3,0,2,1
+765,Progressive,1,0,Ready for Dispatch,4,2,5,1
+766,Progressive,4,0,Order Placed,2,1,5,0
+767,Progressive,4,1,In Production,8,3,2,0
+768,Bifocal,3,1,Ready for Dispatch,5,0,2,1
+769,Single Vision,3,0,Ready for Dispatch,7,2,5,1
+770,Progressive,3,1,In Production,10,1,2,1
+771,Single Vision,2,0,Order Placed,10,2,5,1
+772,Progressive,1,1,Out for Delivery,2,3,2,1
+773,Progressive,1,0,Order Placed,9,0,5,1
+774,Progressive,1,0,Out for Delivery,9,2,5,1
+775,Bifocal,1,1,Delivered,9,0,2,1
+776,Bifocal,3,0,Delivered,1,3,5,0
+777,Progressive,4,1,Out for Delivery,1,0,2,0
+778,Single Vision,4,0,Delivered,5,1,5,1
+779,Bifocal,1,1,Order Placed,8,1,2,0
+780,Single Vision,1,1,Ready for Dispatch,4,0,2,1
+781,Bifocal,2,1,Out for Delivery,1,3,2,1
+782,Bifocal,2,0,In Production,6,2,5,1
+783,Progressive,2,0,Order Placed,2,1,5,0
+784,Progressive,1,0,In Production,7,3,5,1
+785,Progressive,4,0,In Production,5,2,5,0
+786,Single Vision,2,1,Order Placed,7,0,2,1
+787,Single Vision,4,1,Out for Delivery,1,0,2,0
+788,Progressive,3,0,Out for Delivery,8,3,5,1
+789,Single Vision,3,0,Delivered,1,3,5,0
+790,Bifocal,2,0,Ready for Dispatch,6,1,5,0
+791,Bifocal,1,1,Order Placed,7,0,2,1
+792,Progressive,4,1,Out for Delivery,8,0,2,0
+793,Progressive,2,1,Delivered,6,1,2,1
+794,Single Vision,4,0,Order Placed,8,2,5,0
+795,Single Vision,4,1,Ready for Dispatch,5,2,2,1
+796,Bifocal,3,0,Out for Delivery,4,0,5,0
+797,Single Vision,4,1,Delivered,8,2,2,1
+798,Progressive,4,0,Ready for Dispatch,10,0,5,1
+799,Bifocal,1,0,In Production,10,1,5,1
+800,Single Vision,1,1,Delivered,1,3,2,1
+801,Progressive,1,1,In Production,10,1,2,1
+802,Progressive,3,1,Order Placed,10,3,2,1
+803,Bifocal,3,1,Delivered,8,0,2,0
+804,Progressive,1,0,Delivered,3,1,5,0
+805,Single Vision,2,0,Delivered,4,3,5,1
+806,Single Vision,3,1,Order Placed,8,2,2,0
+807,Single Vision,1,1,Order Placed,8,1,2,0
+808,Progressive,3,1,Delivered,5,0,2,1
+809,Progressive,2,0,In Production,1,2,5,0
+810,Single Vision,2,0,Order Placed,10,0,5,1
+811,Bifocal,4,0,Out for Delivery,8,3,5,1
+812,Bifocal,1,1,In Production,3,3,2,1
+813,Progressive,4,1,In Production,3,0,2,1
+814,Single Vision,2,1,Ready for Dispatch,4,1,2,1
+815,Progressive,2,1,In Production,10,2,2,1
+816,Bifocal,3,1,Delivered,3,3,2,1
+817,Progressive,1,1,Ready for Dispatch,10,0,2,0
+818,Progressive,1,0,Order Placed,3,1,5,0
+819,Progressive,4,0,Delivered,4,1,5,1
+820,Progressive,3,1,In Production,8,0,2,1
+821,Single Vision,2,0,Delivered,9,0,5,1
+822,Progressive,1,1,Ready for Dispatch,6,1,2,1
+823,Bifocal,3,1,Delivered,10,2,2,1
+824,Progressive,3,1,Order Placed,7,0,2,1
+825,Progressive,1,1,Delivered,9,2,2,1
+826,Bifocal,2,1,Delivered,6,2,2,0
+827,Single Vision,4,0,Order Placed,6,3,5,1
+828,Single Vision,3,0,Ready for Dispatch,4,1,5,1
+829,Bifocal,4,0,Out for Delivery,1,3,5,0
+830,Progressive,1,1,Out for Delivery,9,3,2,1
+831,Bifocal,4,1,Ready for Dispatch,9,0,2,1
+832,Bifocal,2,1,In Production,2,3,2,1
+833,Progressive,2,1,Delivered,10,1,2,1
+834,Progressive,1,1,Order Placed,3,2,2,1
+835,Progressive,3,0,Out for Delivery,10,1,5,1
+836,Single Vision,1,1,Out for Delivery,6,3,2,1
+837,Single Vision,1,0,Delivered,7,3,5,1
+838,Progressive,2,1,Delivered,4,2,2,1
+839,Single Vision,1,0,Order Placed,10,0,5,0
+840,Single Vision,4,1,Order Placed,9,2,2,1
+841,Progressive,4,0,In Production,10,0,5,1
+842,Bifocal,1,0,Out for Delivery,9,0,5,1
+843,Progressive,1,0,Ready for Dispatch,3,3,5,1
+844,Single Vision,3,1,Order Placed,6,1,2,0
+845,Bifocal,4,0,Out for Delivery,3,1,5,0
+846,Single Vision,2,0,Out for Delivery,10,1,5,1
+847,Bifocal,1,1,Delivered,2,0,2,0
+848,Single Vision,1,1,Delivered,9,0,2,0
+849,Single Vision,1,0,Order Placed,9,2,5,1
+850,Bifocal,4,0,Out for Delivery,5,3,5,1
+851,Progressive,4,1,Ready for Dispatch,4,3,2,1
+852,Bifocal,2,0,Delivered,2,2,5,1
+853,Progressive,1,0,Order Placed,6,1,5,1
+854,Bifocal,4,1,Out for Delivery,10,0,2,1
+855,Single Vision,4,0,Delivered,7,3,5,0
+856,Single Vision,1,0,Order Placed,8,1,5,0
+857,Progressive,2,0,In Production,3,2,5,1
+858,Bifocal,4,0,In Production,9,2,5,0
+859,Progressive,4,0,Out for Delivery,3,1,5,0
+860,Bifocal,1,0,Out for Delivery,8,0,5,1
+861,Single Vision,3,0,Ready for Dispatch,7,2,5,0
+862,Progressive,4,0,Order Placed,9,1,5,1
+863,Progressive,1,0,Order Placed,10,3,5,0
+864,Bifocal,1,0,Ready for Dispatch,3,2,5,0
+865,Bifocal,2,0,In Production,8,3,5,1
+866,Progressive,1,1,In Production,5,1,2,1
+867,Single Vision,2,0,Ready for Dispatch,3,3,5,0
+868,Progressive,2,1,Delivered,1,0,2,0
+869,Progressive,2,0,In Production,8,2,5,1
+870,Progressive,1,1,In Production,1,2,2,0
+871,Progressive,2,0,Delivered,10,3,5,1
+872,Bifocal,2,1,Ready for Dispatch,4,3,2,1
+873,Progressive,3,1,Out for Delivery,5,2,2,1
+874,Bifocal,2,1,Delivered,8,3,2,1
+875,Bifocal,1,0,In Production,2,1,5,0
+876,Progressive,2,1,Order Placed,2,1,2,1
+877,Progressive,3,1,Delivered,8,3,2,0
+878,Bifocal,1,1,Out for Delivery,6,0,2,1
+879,Single Vision,4,0,Order Placed,10,3,5,1
+880,Single Vision,2,1,Ready for Dispatch,8,0,2,1
+881,Bifocal,1,0,Delivered,7,2,5,1
+882,Single Vision,2,0,Out for Delivery,8,1,5,1
+883,Progressive,1,0,Out for Delivery,1,3,5,1
+884,Bifocal,2,1,In Production,5,2,2,1
+885,Single Vision,1,1,Order Placed,8,2,2,0
+886,Progressive,2,1,In Production,2,2,2,1
+887,Single Vision,2,0,Ready for Dispatch,3,2,5,1
+888,Progressive,3,0,Delivered,9,3,5,1
+889,Single Vision,1,0,Out for Delivery,4,2,5,1
+890,Bifocal,2,0,Out for Delivery,8,2,5,1
+891,Progressive,2,0,In Production,4,3,5,0
+892,Progressive,3,0,Out for Delivery,2,0,5,0
+893,Bifocal,1,1,Out for Delivery,3,3,2,1
+894,Single Vision,3,0,In Production,7,3,5,1
+895,Bifocal,4,1,Delivered,1,3,2,0
+896,Single Vision,3,0,Out for Delivery,5,3,5,1
+897,Progressive,3,0,Delivered,3,1,5,0
+898,Bifocal,4,1,Delivered,5,1,2,1
+899,Single Vision,1,0,In Production,4,1,5,1
+900,Single Vision,2,0,Order Placed,6,3,5,1
+901,Progressive,3,1,Delivered,10,0,2,1
+902,Single Vision,1,1,Order Placed,8,0,2,0
+903,Single Vision,2,1,Out for Delivery,10,1,2,1
+904,Bifocal,4,1,Delivered,4,3,2,1
+905,Progressive,2,0,In Production,5,3,5,1
+906,Single Vision,3,0,In Production,5,2,5,1
+907,Progressive,1,0,Out for Delivery,1,1,5,0
+908,Progressive,2,0,Delivered,4,2,5,0
+909,Progressive,3,0,In Production,4,1,5,1
+910,Bifocal,1,1,Order Placed,4,1,2,1
+911,Single Vision,3,0,Out for Delivery,4,0,5,0
+912,Single Vision,1,1,Out for Delivery,4,1,2,1
+913,Single Vision,1,0,Order Placed,5,3,5,1
+914,Progressive,1,0,Delivered,3,1,5,0
+915,Bifocal,3,1,Delivered,7,1,2,1
+916,Single Vision,3,0,Out for Delivery,1,2,5,0
+917,Bifocal,4,1,Delivered,3,1,2,1
+918,Bifocal,3,1,Ready for Dispatch,7,2,2,1
+919,Single Vision,2,1,Ready for Dispatch,8,1,2,0
+920,Progressive,1,0,Out for Delivery,9,0,5,1
+921,Progressive,2,0,In Production,5,2,5,1
+922,Progressive,1,1,Out for Delivery,6,0,2,0
+923,Progressive,4,1,Order Placed,9,0,2,1
+924,Single Vision,3,1,Delivered,5,3,2,1
+925,Single Vision,2,0,In Production,2,0,5,0
+926,Bifocal,2,0,Out for Delivery,9,0,5,1
+927,Single Vision,4,1,Out for Delivery,2,1,2,1
+928,Progressive,4,1,Out for Delivery,1,0,2,1
+929,Bifocal,4,1,Delivered,7,2,2,1
+930,Progressive,4,0,Order Placed,4,2,5,1
+931,Bifocal,3,1,Delivered,7,3,2,1
+932,Bifocal,1,0,Order Placed,2,3,5,1
+933,Single Vision,2,0,Out for Delivery,2,1,5,0
+934,Bifocal,2,0,Delivered,10,3,5,1
+935,Single Vision,4,1,Out for Delivery,10,2,2,1
+936,Bifocal,2,1,Out for Delivery,3,1,2,1
+937,Single Vision,2,0,Order Placed,8,0,5,0
+938,Progressive,2,1,Order Placed,7,2,2,1
+939,Single Vision,4,0,Delivered,5,3,5,1
+940,Bifocal,3,0,Ready for Dispatch,6,2,5,0
+941,Progressive,1,1,Out for Delivery,9,0,2,1
+942,Progressive,1,0,Out for Delivery,10,3,5,0
+943,Progressive,1,1,Delivered,5,1,2,1
+944,Progressive,1,0,Out for Delivery,9,0,5,1
+945,Single Vision,1,1,Delivered,8,3,2,1
+946,Progressive,1,0,In Production,4,1,5,1
+947,Progressive,1,0,Ready for Dispatch,1,3,5,0
+948,Single Vision,2,1,Out for Delivery,7,2,2,1
+949,Single Vision,1,1,Order Placed,4,0,2,1
+950,Single Vision,3,1,Out for Delivery,3,1,2,0
+951,Bifocal,2,1,In Production,7,2,2,1
+952,Single Vision,4,1,Delivered,6,2,2,0
+953,Single Vision,3,0,In Production,7,1,5,0
+954,Bifocal,1,0,Out for Delivery,8,0,5,0
+955,Progressive,2,1,Order Placed,1,2,2,1
+956,Bifocal,4,0,Ready for Dispatch,6,0,5,0
+957,Progressive,1,1,Out for Delivery,5,0,2,1
+958,Bifocal,2,1,In Production,1,2,2,1
+959,Single Vision,4,1,Out for Delivery,7,3,2,1
+960,Single Vision,2,1,Out for Delivery,6,0,2,1
+961,Bifocal,1,1,Order Placed,3,2,2,1
+962,Progressive,1,1,Delivered,5,2,2,1
+963,Bifocal,2,1,Out for Delivery,6,3,2,1
+964,Progressive,4,0,Out for Delivery,10,0,5,1
+965,Progressive,2,0,Out for Delivery,5,2,5,1
+966,Progressive,3,1,Out for Delivery,6,0,2,1
+967,Bifocal,1,1,Order Placed,8,1,2,1
+968,Single Vision,4,0,Delivered,4,2,5,1
+969,Bifocal,4,0,Out for Delivery,1,1,5,0
+970,Single Vision,4,0,In Production,5,1,5,1
+971,Progressive,3,1,In Production,3,2,2,1
+972,Progressive,2,1,Order Placed,5,3,2,1
+973,Bifocal,4,1,Order Placed,5,1,2,1
+974,Bifocal,1,1,Order Placed,7,0,2,0
+975,Single Vision,1,0,Ready for Dispatch,1,1,5,0
+976,Progressive,1,1,Order Placed,10,3,2,1
+977,Single Vision,1,1,Ready for Dispatch,4,3,2,1
+978,Bifocal,2,0,Ready for Dispatch,7,2,5,1
+979,Single Vision,1,0,In Production,9,0,5,1
+980,Bifocal,1,1,Ready for Dispatch,8,2,2,1
+981,Progressive,3,1,In Production,3,1,2,1
+982,Bifocal,3,1,Delivered,5,0,2,1
+983,Single Vision,4,1,Order Placed,1,0,2,0
+984,Single Vision,2,1,Out for Delivery,1,1,2,0
+985,Bifocal,4,0,Ready for Dispatch,1,2,5,0
+986,Progressive,1,0,Delivered,10,1,5,1
+987,Progressive,2,0,Out for Delivery,6,1,5,1
+988,Bifocal,3,1,In Production,8,0,2,1
+989,Progressive,4,1,Out for Delivery,6,3,2,1
+990,Progressive,4,1,Delivered,9,3,2,1
+991,Single Vision,4,1,Delivered,7,1,2,1
+992,Single Vision,3,0,In Production,8,0,5,1
+993,Bifocal,1,0,In Production,3,1,5,0
+994,Progressive,2,0,Out for Delivery,1,2,5,0
+995,Progressive,2,0,Order Placed,8,3,5,1
+996,Bifocal,4,0,Out for Delivery,4,0,5,0
+997,Single Vision,4,0,Ready for Dispatch,2,0,5,0
+998,Bifocal,2,0,Order Placed,9,1,5,1
+999,Progressive,3,1,In Production,8,3,2,0
+1000,Bifocal,1,1,Ready for Dispatch,6,0,2,1

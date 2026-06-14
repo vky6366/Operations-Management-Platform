@@ -1,0 +1,10 @@
+python-dotenv
+twilio
+openai
+xgboost
+scikit-learn
+pandas
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
