@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Home, Package, Box, AlertTriangle, BarChart2, Zap } from 'lucide-react';
-import SystemStatus from './SystemStatus';
+
 
 export default function Layout({ children }) {
   const navItems = [
@@ -41,15 +41,7 @@ export default function Layout({ children }) {
           ))}
         </nav>
 
-        <div className="p-4 border-t border-slate-800 bg-slate-900">
-          <h4 className="text-xs uppercase tracking-wider text-slate-500 font-bold mb-3 px-2">System Status</h4>
-          <div className="space-y-2 px-2 text-sm text-slate-300">
-            <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green-400"></span> FastAPI</div>
-            <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green-400"></span> PostgreSQL (RDS)</div>
-            <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green-400"></span> XGBoost</div>
-            <div className="flex items-center gap-2"><span className="w-2 h-2 rounded-full bg-green-400"></span> GPT-4.1-mini</div>
-          </div>
-        </div>
+
       </aside>
 
       {/* Main Content */}
