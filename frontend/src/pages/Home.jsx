@@ -5,32 +5,21 @@ import AIInsightsPanel from '../components/AIInsightsPanel';
 import TopPriorityAlert from '../components/TopPriorityAlert';
 import StatusDistributionChart from '../components/charts/StatusDistributionChart';
 import RiskDistributionChart from '../components/charts/RiskDistributionChart';
-import { Clock, RefreshCw, Zap, ArrowRight } from 'lucide-react';
-import { useDashboardRefresh } from '../context/DashboardRefreshContext';
+import { Zap, ArrowRight } from 'lucide-react';
 
 export default function Home() {
-  const [lastUpdated, setLastUpdated] = useState(null);
-  const { triggerRefresh } = useDashboardRefresh();
 
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-2">
         <div>
           <h2 className="text-3xl font-extrabold text-gray-900 tracking-tight">Executive Overview</h2>
-          <div className="flex items-center gap-3 mt-2 text-sm font-medium text-gray-500 bg-white px-4 py-2 rounded-full shadow-sm border border-gray-100 inline-flex">
-            <Clock size={16} className="text-indigo-500" />
-            <span>Last Updated: {lastUpdated ? new Date(lastUpdated).toLocaleTimeString() : 'Fetching...'}</span>
-            <div className="w-px h-4 bg-gray-300 mx-1"></div>
-            <button onClick={triggerRefresh} className="flex items-center gap-1 text-indigo-600 hover:text-indigo-800 transition">
-              <RefreshCw size={14} /> Refresh
-            </button>
-          </div>
         </div>
       </header>
 
       <TopPriorityAlert />
       
-      <KPICards onLastUpdated={setLastUpdated} />
+      <KPICards />
       
       <AIInsightsPanel page="home" />
 

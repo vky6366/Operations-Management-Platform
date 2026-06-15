@@ -3,7 +3,7 @@ import { Activity, AlertTriangle, Package, CheckCircle } from 'lucide-react';
 import { dashboardAPI } from '../services/api';
 import { useDashboardRefresh } from '../context/DashboardRefreshContext';
 
-export default function KPICards({ onLastUpdated }) {
+export default function KPICards() {
   const { refreshCounter } = useDashboardRefresh();
   const [kpis, setKpis] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -13,9 +13,6 @@ export default function KPICards({ onLastUpdated }) {
       try {
         const res = await dashboardAPI.getKPISummary();
         setKpis(res.data);
-        if (onLastUpdated && res.data.last_updated) {
-          onLastUpdated(res.data.last_updated);
-        }
       } catch (err) {
         console.error("Failed to fetch KPIs", err);
       } finally {
@@ -23,7 +20,7 @@ export default function KPICards({ onLastUpdated }) {
       }
     };
     fetchKPIs();
-  }, [refreshCounter, onLastUpdated]);
+  }, [refreshCounter]);
 
   if (loading || !kpis) {
     return (
