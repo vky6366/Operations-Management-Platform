@@ -54,6 +54,6 @@ def generate_synthetic_data(num_records=1000, output_path="data/synthetic_orders
     print(f"Generated {num_records} synthetic order records at {output_path}")
 
 if __name__ == "__main__":
-    # Ensure it writes to the correct eluno-ai/data directory
+    # Ensure it writes to the correct backend/data directory
     output_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "synthetic_orders.csv")
     generate_synthetic_data(1000, output_file)

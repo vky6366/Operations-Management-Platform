@@ -18,7 +18,7 @@ export default function Layout({ children }) {
       {/* Sidebar */}
       <aside className="w-64 bg-slate-900 text-white flex flex-col fixed h-full shadow-xl z-10">
         <div className="p-6">
-          <h1 className="text-xl font-bold tracking-tight mb-1">ELUNO AI</h1>
+          <h1 className="text-xl font-bold tracking-tight mb-1">PLATFORM</h1>
           <p className="text-slate-400 text-xs font-semibold uppercase tracking-wider">Operations Platform</p>
         </div>
         

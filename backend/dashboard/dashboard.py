@@ -4,9 +4,9 @@ import pandas as pd
 
 API_BASE_URL = "http://13.232.18.53:8000"
 
-st.set_page_config(page_title="Eluno AI - Order Management", layout="wide")
+st.set_page_config(page_title="Operations Management Platform", layout="wide")
 
-st.title("Eluno AI - Order Management Dashboard")
+st.title("Operations Management Dashboard")
 
 # --- Helper Functions ---
 def fetch_active_orders():

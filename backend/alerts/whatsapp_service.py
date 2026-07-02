@@ -30,7 +30,7 @@ def send_whatsapp_alert(order_details: dict, prediction: dict) -> dict:
         recommendation = prediction.get("recommendation", "No recommendation.")
         
         message_body = (
-            f"🚨 *Eluno AI - SLA Breach Alert* 🚨\n\n"
+            f"🚨 *SLA Breach Alert* 🚨\n\n"
             f"Order ID: {order_id}\n"
             f"Customer: {customer_name}\n"
             f"Breach Probability: {breach_prob:.0f}%\n\n"

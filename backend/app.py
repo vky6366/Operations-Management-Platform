@@ -11,7 +11,7 @@ Base.metadata.create_all(bind=engine)
 
 # Initialize FastAPI application
 app = FastAPI(
-    title="Eluno AI-Powered Order Management System",
+    title="Operations Management Platform",
     description="AI-driven internal order and inventory management platform for eyewear operations.",
     version="1.0.0",
 )
@@ -28,7 +28,7 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {
-        "message": "Welcome to Eluno AI-Powered Order Management System",
+        "message": "Welcome to Operations Management Platform",
         "status": "running"
     }
 

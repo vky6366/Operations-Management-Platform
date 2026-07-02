@@ -1,6 +1,6 @@
-# Eluno AI - Operations Management Platform
+# Operations Management Platform
 
-Eluno AI is a modern, AI-powered internal operations platform designed specifically for eyewear manufacturing and retail. It streamlines order tracking, inventory management, and SLA compliance using predictive machine learning models and generative AI insights.
+This is a modern, AI-powered internal operations platform designed specifically for eyewear manufacturing and retail. It streamlines order tracking, inventory management, and SLA compliance using predictive machine learning models and generative AI insights.
 
 ## 🌟 Key Features
 
@@ -30,7 +30,7 @@ Eluno AI is a modern, AI-powered internal operations platform designed specifica
 
 ### 1. Database Configuration
 1. Ensure you have a PostgreSQL instance running.
-2. Navigate to the `eluno-ai` directory and configure your `.env` file:
+2. Navigate to the `backend` directory and configure your `.env` file:
    ```env
    DATABASE_URL=postgresql://user:password@host:port/dbname
    OPENAI_API_KEY=your_openai_api_key_here
@@ -42,7 +42,7 @@ Eluno AI is a modern, AI-powered internal operations platform designed specifica
 ### 2. Backend Setup
 1. Navigate to the backend directory:
    ```bash
-   cd eluno-ai
+   cd backend
    ```
 2. Install the required Python dependencies:
    ```bash
@@ -79,7 +79,7 @@ Eluno AI is a modern, AI-powered internal operations platform designed specifica
 
 ```text
 ELUNO_Assignment/
-├── eluno-ai/                  # FastAPI Backend
+├── backend/                   # FastAPI Backend
 │   ├── ai_assistant/          # OpenAI Integration & Context Slicing
 │   ├── ai_prediction/         # XGBoost Model & Breach Prediction Logic
 │   ├── alerts/                # SMTP Email Dispatching & Smart Triggers
